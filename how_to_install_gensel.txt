@@ -1,0 +1,26 @@
+#==============================================================================#
+# How to install GenSel
+#==============================================================================#
+
+	1) Go to the dropbox (or try to find elsewhere)
+	https://www.dropbox.com/sh/vdaafp5v1hwc75e/AADVDWfmMnPzM18FUbhLF0bia?dl=0
+	https://www.dropbox.com/sh/vdaafp5v1hwc75e/AAA1HpWIiBiWdro9p8CXuKL5a/ubuntu?dl=0
+
+	2) For Mac it needs a library go to:
+	http://hpc.sourceforge.net/
+	download and then use
+	  gunzip gcc-6.2-bin.tar.gz
+	  sudo tar -xvf gcc-6.2-bin.tar -C /.
+	(but don't forget the /. at the end)
+
+	3) For Ubuntu you need to add the LD_LIBRARY_PATH to your .bash_profile
+	LD_LIBRARY_PATH=/home/amputz/bin/GenSel/    # YOU change to your path (location)
+	export LD_LIBRARY_PATH
+
+	4) Set your path in your .bash_profile on either Mac/Ubuntu/etc
+	export PATH=$HOME/bin/GenSel:$PATH      # YOU change to your path (location)
+
+Should be good to go!
+	- Probably contact Dorian Garrick if you have more problems
+
+
